@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: linear-gradient(rgb(172, 12, 187),red);
+    height: 90vh;
+    width:90vw
+}
+
+.main{
+    height: 70vh;
+    width:70vw;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+.main > input{
+display: none;
+}
+.main>input:checked+label+.slider{
+    left:0;
+}
+.slider{
+    position: absolute;
+    height:100%;
+    left:100%;
+    width: 100%;
+    transition: 0.3s;
+}
+.slider > img{
+    height: 100%;
+    width:100%;
+} 
+.left{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(202, 180, 180);
+    position: absolute;
+    bottom:10px;
+   left:40%;    
+   z-index: 1;
+}
+.l1{
+    left:44%
+}
+.l2{
+    left:48%
+}.l3{
+    left:52%
+}.l4{
+    left:56%
+}.l5{
+    left:60%
+}
+
